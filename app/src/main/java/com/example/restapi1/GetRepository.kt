@@ -8,8 +8,6 @@ import retrofit2.Response
 
 class GetRepository(val context: Context) {
     lateinit var repository: Repository
-    var modelItem: ModelItem = ModelItem("", 0, "", 0)
-    var arrayList: ArrayList<String> = arrayListOf()
 
     fun getPosts(): Model {
         var model = Model()
